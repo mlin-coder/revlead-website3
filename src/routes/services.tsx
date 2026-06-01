@@ -19,7 +19,7 @@ const services = [
   {
     icon: PhoneOff,
     title: "AI Missed Call Text-Back",
-    pitch: "Recover the 30%+ of calls your shop misses every week.",
+    pitch: "Recover the ~30%+ of calls your shop misses every week.",
     bullets: [
       "Instant AI SMS reply the moment a call goes unanswered",
       "Qualifies the lead, captures vehicle + issue, books service",
@@ -30,7 +30,7 @@ const services = [
   {
     icon: CalendarCheck,
     title: "AI Appointment Booking & Follow-Up",
-    pitch: "Fill your bays — and keep them full.",
+    pitch: "Fill your bays and always keep them full.",
     bullets: [
       "AI books appointments directly into your scheduling system",
       "Automated SMS + email reminders that crush no-shows",
@@ -46,7 +46,7 @@ const services = [
       "Imports your contact database and segments by service history",
       "Personalized AI outreach: maintenance reminders, win-back offers",
       "Books service from customers you haven't heard from in months",
-      "Typically recovers 10–30 extra ROs in the first 30 days",
+      "Historically recovers 10–30 extra ROs in the first 30 days",
     ],
   },
 ];
@@ -107,7 +107,7 @@ function ServicesPage() {
             <div>
               <h3 className="mt-1 text-2xl md:text-3xl font-bold tracking-tight">Website Design & Build</h3>
               <p className="mt-2 text-muted-foreground text-lg">
-                Your AI systems need somewhere to send traffic. We build clean, conversion-focused websites with lead capture forms and CRM integration built in — so every visitor becomes a trackable lead.
+                Your AI systems need somewhere to send traffic. We can offer a clean, conversion-focused websites with lead capture forms and CRM integration built in so every visitor becomes a trackable lead.
               </p>
               <ul className="mt-6 grid sm:grid-cols-2 gap-3">
                 {[
