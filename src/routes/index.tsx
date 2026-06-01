@@ -181,7 +181,7 @@ function Index() {
               { stat: "~30%", label: "of inbound calls go unanswered at SMBs (Invoca)" },
               { stat: "5 min", label: "response window before lead conversion drops sharply (HBR)" },
               { stat: "~50%", label: "of buyers choose the vendor that responds first (Google)" },
-              { stat: "Free", label: "20-min audit — we quantify your numbers" },
+              { stat: "Free", label: "30 min audit where we quantify your numbers together" },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]">
                 <div className="text-4xl text-primary font-black">{s.stat}</div>
@@ -306,7 +306,7 @@ function Index() {
               Find out what you're leaving on the table.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Book a free 20-minute audit. We'll show you exactly how many customers your shop is losing and what AI can help you recover.
+              Book a free 30-minute audit. We'll show you exactly how many customers your shop is losing and what AI can help you recover.
             </p>
             <Button asChild variant="hero" size="xl" className="mt-8">
               <Link to="/contact">
