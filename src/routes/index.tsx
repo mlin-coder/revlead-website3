@@ -182,7 +182,7 @@ function Index() {
               { stat: "Free", label: "20-min audit — we quantify your numbers" },
             ].map((s) => (
               <div key={s.label} className="rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)]">
-                <div className="text-4xl font-bold bg-[image:var(--gradient-text)] bg-clip-text text-transparent">{s.stat}</div>
+                <div className="text-4xl text-primary font-black">{s.stat}</div>
                 <div className="mt-2 text-sm text-muted-foreground">{s.label}</div>
               </div>
             ))}
