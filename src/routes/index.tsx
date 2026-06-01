@@ -114,6 +114,7 @@ function Index() {
           width={1920}
           height={1280}
           className="absolute inset-0 h-full w-full object-cover opacity-40"
+          style={{ filter: 'brightness(0.85) sepia(0.2) saturate(1.2)' }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/80 to-background" />
         <div className="relative mx-auto max-w-5xl px-6 py-28 md:py-40 text-center">
@@ -168,6 +169,7 @@ function Index() {
               height={960}
               loading="lazy"
               className="relative rounded-2xl border border-border shadow-[var(--shadow-card)] w-full h-auto object-cover aspect-[4/3]"
+              style={{ filter: 'brightness(0.85) sepia(0.2) saturate(1.2)' }}
             />
           </div>
         </div>
@@ -224,6 +226,7 @@ function Index() {
               height={960}
               loading="lazy"
               className="rounded-2xl border border-border shadow-[var(--shadow-card)] w-full h-auto object-cover aspect-[4/3]"
+              style={{ filter: 'brightness(0.85) sepia(0.2) saturate(1.2)' }}
             />
           </div>
           <div className="order-1 md:order-2">
