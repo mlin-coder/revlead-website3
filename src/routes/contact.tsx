@@ -63,7 +63,7 @@ function ContactPage() {
                 <p className="text-sm text-muted-foreground">Pick a time that works for you.</p>
               </div>
             </div>
-            <div className="calendly-inline-widget w-full rounded-xl overflow-hidden" data-url="https://calendly.com/linm-revleadai/motor-ai-implementation" style={{ minWidth: '320px', height: '700px' }} />
+            <div className="calendly-inline-widget w-full rounded-xl overflow-hidden" data-url="https://calendly.com/linm-revleadai/ai-implementation?hide_gdpr_banner=1&background_color=241b15&text_color=cc9b75&primary_color=f2d5b9" style={{ minWidth: '320px', height: '700px' }} />
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)] space-y-4">
