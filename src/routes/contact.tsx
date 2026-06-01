@@ -68,11 +68,11 @@ function ContactPage() {
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)] space-y-4">
             <div className="flex items-center gap-3 text-sm">
               <Mail className="h-4 w-4 text-primary" />
-              <span className="text-muted-foreground">hello@revleadai.com</span>
+              <span className="text-muted-foreground">linM@revleadai.com</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Phone className="h-4 w-4 text-primary" />
-              <span className="text-muted-foreground">(555) 010-0117</span>
+              <span className="text-muted-foreground">909-699-8000</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <MapPin className="h-4 w-4 text-primary" />
