@@ -31,7 +31,7 @@ function ContactPage() {
     setTimeout(() => {
       setSubmitting(false);
       (e.target as HTMLFormElement).reset();
-      toast.success("Thanks — we'll be in touch within one business day.");
+      toast.success("Thanks for the interest! We'll be in touch.");
     }, 700);
   }
 
@@ -46,7 +46,7 @@ function ContactPage() {
           Let's find your lost revenue.
         </h1>
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-          20 minutes. No pitch deck. We'll show you exactly where leads are leaking — and what AI can recover this month.
+          30 minutes. No pitch deck. We'll show you exactly where leads are leaking and what AI can help recover this month.
         </p>
       </section>
 
