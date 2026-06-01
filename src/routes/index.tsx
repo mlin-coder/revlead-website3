@@ -123,7 +123,7 @@ function Index() {
           </div>
           <h1 className="mt-6 text-5xl md:text-7xl font-bold tracking-tight leading-[1.05] bg-[image:var(--gradient-text)] bg-clip-text text-transparent">
             Stop losing leads. <br className="hidden md:block" />
-            Book more service.
+            Book more appointments.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             We help automotive businesses recover lost leads, automate follow-up, and book more appointments — using AI that works 24/7 so your team doesn't have to.
