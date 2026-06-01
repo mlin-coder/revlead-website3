@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Calendar, Mail, MapPin, Phone, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,6 +16,14 @@ export const Route = createFileRoute("/contact")({
 
 function ContactPage() {
   const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://assets.calendly.com/assets/external/widget.js';
+    script.async = true;
+    document.body.appendChild(script);
+    return () => { document.body.removeChild(script); };
+  }, []);
 
   function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -55,20 +63,13 @@ function ContactPage() {
                 <p className="text-sm text-muted-foreground">Pick a time that works for you.</p>
               </div>
             </div>
-            <div className="mt-6 aspect-[4/3] rounded-2xl border border-dashed border-border bg-background/50 grid place-items-center text-center p-6">
-              <div>
-                <p className="text-sm text-muted-foreground">Calendly embed placeholder</p>
-                <p className="mt-2 text-xs text-muted-foreground">
-                  Drop your Calendly inline-embed snippet here.
-                </p>
-              </div>
-            </div>
+            <div className="calendly-inline-widget w-full rounded-xl overflow-hidden" data-url="https://calendly.com/linm-revleadai/motor-ai-implementation" style={{ minWidth: '320px', height: '700px' }} />
           </div>
 
           <div className="rounded-3xl border border-border bg-card p-8 shadow-[var(--shadow-card)] space-y-4">
             <div className="flex items-center gap-3 text-sm">
               <Mail className="h-4 w-4 text-primary" />
-              <span className="text-muted-foreground">linM@revleadai.com</span>
+              <span className="text-muted-foreground">linmic@revleadai.com</span>
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Phone className="h-4 w-4 text-primary" />
