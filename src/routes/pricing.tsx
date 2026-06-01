@@ -63,7 +63,7 @@ function PricingPage() {
           Pricing built for ROI.
         </h1>
         <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
-          Most shops cover their plan with the first 5–10 recovered appointments. Month-to-month — no long contracts.
+          Most shops cover their plan with the first 5–10 recovered appointments. Month-to-month; no long contracts.
         </p>
       </section>
 
