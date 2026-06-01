@@ -27,12 +27,12 @@ const services = [
   {
     icon: PhoneOff,
     title: "AI Missed Call Text-Back",
-    desc: "Every missed call gets an instant AI text reply — so leads never go cold while you're under a hood.",
+    desc: "Every missed call gets an instant AI text reply so leads never go cold while you're under a hood.",
   },
   {
     icon: CalendarCheck,
     title: "AI Appointment Booking & Follow-Up",
-    desc: "Automated reminders, confirmations, and no-show recovery that fill your bays around the clock.",
+    desc: "Automated reminders, confirmations, and no-show recovery that fill your shop around the clock.",
   },
   {
     icon: Sparkles,
@@ -50,7 +50,7 @@ const whyUs = [
   {
     icon: TrendingUp,
     title: "Recover real revenue",
-    desc: "Turn missed calls and dead leads into booked appointments — most shops see 10–30 extra ROs per month.",
+    desc: "Turn missed calls and dead leads into booked appointments. Most shops see 10–30 extra ROs per month.",
   },
   {
     icon: Users,
@@ -76,7 +76,7 @@ const pricing = [
     name: "Growth",
     price: "$2,500",
     setup: "$2,000–$3,500 setup",
-    desc: "Most popular — for shops scaling bookings and follow-up.",
+    desc: "Most popular —> for shops scaling bookings and follow-up.",
     features: [
       "Everything in Starter",
       "AI appointment booking + no-show recovery",
@@ -123,11 +123,11 @@ function Index() {
             AI Automation for Automotive
           </div>
           <h1 className="mt-6 text-5xl md:text-7xl font-bold tracking-tight leading-[1.05] bg-[image:var(--gradient-text)] bg-clip-text text-transparent">
-            Stop losing leads. <br className="hidden md:block" />
+            Stop losing customers. <br className="hidden md:block" />
             Book more appointments.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            We help automotive businesses recover lost leads, automate follow-up, and book more appointments — using AI that works 24/7 so your team doesn't have to.
+            We help automotive businesses recover lost leads, automate follow-up, and book more appointments. Using AI that works 24/7 so your team doesn't have to.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             <Button asChild variant="hero" size="xl">
@@ -154,10 +154,10 @@ function Index() {
               Your shop is bleeding revenue you never see.
             </h2>
             <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-              Most automotive businesses miss a meaningful chunk of inbound calls, are slow to follow up on web leads, and have hundreds — sometimes thousands — of dormant customers sitting unused in their CRM.
+              Most automotive businesses miss a meaningful chunk of inbound calls, are slow to follow up on web leads, and have tens — sometimes hundreds — of dormant customers sitting unused in their CRM network.
             </p>
             <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
-              Every missed touchpoint is a booked appointment your competitor gets instead.
+              Every missed client is a booked appointment your competitor gets instead.
             </p>
           </div>
           <div className="relative">
@@ -306,7 +306,7 @@ function Index() {
               Find out what you're leaving on the table.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-              Book a free 20-minute audit. We'll show you exactly how many leads your shop is losing — and what AI can recover.
+              Book a free 20-minute audit. We'll show you exactly how many customers your shop is losing and what AI can help you recover.
             </p>
             <Button asChild variant="hero" size="xl" className="mt-8">
               <Link to="/contact">
